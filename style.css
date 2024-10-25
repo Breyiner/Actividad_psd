@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Holtwood+One+SC&family=Passion+One:wght@400;700;900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ultra&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+
+:root {
+  --colorPrincipal: #11f2ff;
+  --colorSecundario: #000;
+  --blanco: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.streaming {
+  background-image: url(img/background.png);
+  background-size: cover;
+}
+
+.header {
+  padding: 60px 60px 0;
+  width: 100%;
+  /* position: absolute; */
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background-color: #11f2ff;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 30px;
+  font-weight: 1000;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav__link {
+  padding: 25px;
+  color: var(--colorSecundario);
+  text-decoration: none;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.next-pages {
+  display: flex;
+  color: var(--blanco);
+  width: 100%;
+  padding: 0 60px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+.name-event {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-event__text {
+  display: inline-block;
+  color: var(--blanco);
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 1000;
+  font-family: "Passion One", sans-serif;
+}
+
+.name-event__text--background-red {
+  background-color: red;
+  padding: 0 4px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.name-event__text--background-red::after {
+  content: '•';
+  font-size: 80%;
+  position: absolute;
+  bottom: 75%;
+  left: 100%;
+  color: red;
+}
+
+.btn-signin {
+  display: block;
+  padding: 7px 15px;
+  text-decoration: none;
+  color: var(--colorSecundario);
+  text-transform: uppercase;
+  background-color: var(--blanco);
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.other-pages {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+  color: var(--colorPrincipal);
+  margin-top: 30px;
+}
+
+.other-pages__page--active {
+  color: var(--blanco);
+}
+
+.name-game {
+  color: var(--blanco);
+  font-size: 500px;
+  text-transform: uppercase;
+  font-family: "Holtwood One SC", serif;
+  font-weight: 1000;
+  letter-spacing: 30px;
+  margin-top: -200px;
+}
