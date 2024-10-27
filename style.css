@@ -18,16 +18,18 @@
 ::-webkit-scrollbar {
   display: none;
 }
-
+/* Body */
 .streaming {
   background-image: url(img/background.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
+/* Header */
 .header {
-  padding: 60px 60px 0;
+  padding: 50px 50px 0;
   width: 100%;
-  /* position: absolute; */
   margin-bottom: 1px;
   display: flex;
   flex-direction: column;
@@ -49,46 +51,71 @@
   margin-right: 20px;
 }
 
+.nav__img-logo {
+  height: 60px;
+}
+
 .nav__link {
   padding: 25px;
   color: var(--colorSecundario);
   text-decoration: none;
 }
 
+/* First Section */
+
 .main-page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  gap: 50px;
-  margin-top: 50px;
+  gap: 4vh;
+}
+
+.main-page__container-img {
+  /* position: relative;
+  width: 80%; */
+} 
+
+.main-page__img {
+  z-index: 1;
+  position: absolute;
+  width: 80%;
+  left: 12%;
 }
 
 .next-pages {
   display: flex;
   color: var(--blanco);
   width: 100%;
-  padding: 0 60px;
+  padding: 0 50px;
   align-items: center;
   justify-content: space-between;
-  font-size: 30px;
+  font-size: 2rem;
   letter-spacing: 10px;
   cursor: pointer;
+  margin-top: 2vh;
+}
+
+.main-page__event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 65px;
 }
 
 .name-event {
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-size: 3.5vw;
 }
 
 .name-event__text {
   display: inline-block;
   color: var(--blanco);
   text-transform: uppercase;
-  font-size: 50px;
   font-weight: 1000;
   font-family: "Passion One", sans-serif;
+  letter-spacing: 5px;
 }
 
 .name-event__text--background-red {
@@ -109,21 +136,29 @@
 
 .btn-signin {
   display: block;
-  padding: 7px 15px;
+  padding: 10px 20px;
   text-decoration: none;
   color: var(--colorSecundario);
   text-transform: uppercase;
   background-color: var(--blanco);
   font-weight: bold;
+  font-size: 1.1em;
   border-radius: 3px;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.btn-signin:hover {
+  background-color: var(--colorPrincipal);
+  opacity: 0.5;
 }
 
 .other-pages {
   display: flex;
-  gap: 20px;
-  font-size: 25px;
+  gap: 1.2vw;
+  font-size: 2vw;
   color: var(--colorPrincipal);
-  margin-top: 30px;
+  /* margin-top: 20px; */
 }
 
 .other-pages__page--active {
@@ -132,10 +167,75 @@
 
 .name-game {
   color: var(--blanco);
-  font-size: 500px;
+  font-size: 400px;
   text-transform: uppercase;
   font-family: "Holtwood One SC", serif;
   font-weight: 1000;
-  letter-spacing: 30px;
+  /* letter-spacing: 30px; */
+  margin-top: -170px;
+}
+
+
+
+/* Second section */
+
+.date-event {
   margin-top: -200px;
+  width: 100%;
+  height: 250px;
+  background-color: var(--colorPrincipal);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.decoration {
+  width: 4%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.decoration__line {
+  background-color: var(--blanco);
+  height: 10px;
+}
+
+.date-event__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  gap: 20px;
+}
+
+.date-event__text {
+  font-size: 25px;
+  font-family: "Holtwood One SC", serif;
+  color: var(--blanco);
+}
+
+.date-event__datetime {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 27px;
+  gap: 60px;  
+  
+}
+
+.date-event__time{
+  color: var(--colorSecundario);
+  font-family: "Holtwood One SC", serif;
+}
+
+.date-event__time--big {
+  font-size: 60px;
 }
