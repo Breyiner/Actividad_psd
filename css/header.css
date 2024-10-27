@@ -1,0 +1,33 @@
+/* Header */
+.header {
+  padding: 50px 50px 0;
+  width: 100%;
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background-color: #11f2ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 30px;
+  font-weight: 1000;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav__img-logo {
+  height: 60px;
+}
+
+.nav__link {
+  padding: 25px;
+  color: var(--colorSecundario);
+  text-decoration: none;
+}
