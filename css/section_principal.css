@@ -3,7 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4vh;
+  gap: 7vh;
+}
+
+.main-page__container-img {
+  position: relative;
+  width: 100%;
 }
 
 .main-page__img {
@@ -11,6 +16,7 @@
   position: absolute;
   width: 80%;
   left: 12%;
+  height: 100vh;
 }
 
 .next-pages {
@@ -105,6 +111,6 @@
   text-transform: uppercase;
   font-family: "Holtwood One SC", serif;
   font-weight: 1000;
-  /* letter-spacing: 30px; */
+  letter-spacing: 30px;
   margin-top: -170px;
 }

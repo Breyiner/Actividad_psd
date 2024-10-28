@@ -5,6 +5,8 @@
 @import url(css/section_principal.css);
 @import url(css/section_time_event.css);
 @import url(css/setcion_signin.css);
+@import url(css/section_signin_invested.css);
+@import url(css/section_teams.css);
 
 * {
   margin: 0;
@@ -14,7 +16,7 @@
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 
 /* Body */

@@ -1,0 +1,49 @@
+.page-signin--invested {
+  margin: 200px 0 300px;
+  position: relative;
+}
+
+.signin-content--invested {
+  gap: 10%;
+}
+
+.signin-information--invested {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.img-page--invested {
+  width: 130%;
+  background-color: var(--colorPrincipal);
+  margin-right: 0;
+  position: relative;
+}
+
+.img-page__img--invested {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 11%;
+  margin-left: -15%;
+  z-index: 2;
+  height: 70vh;
+}
+
+.decoration--page-signin-invested {
+  position: absolute;
+  top: 3%;
+  left: -10%;
+  width: 10%;
+}
+
+.next-pages__left--page-signin-invested {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  color: var(--colorPrincipal);
+}
+
+.next-pages__right--page-signin-invested {
+  bottom: -20%;
+  position: absolute;
+  left: 45%;
+}
