@@ -1,16 +1,14 @@
 .page-teams {
   display: flex;
   flex-direction: column;
-  margin: 200px 0;
+  margin: 100px 0;
 }
 
 .page-teams-information{ 
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 55%;
   align-items: center;
-  gap: 20px;
-  overflow-wrap: break-word;
 }
 
 .page-teams-information__title {
@@ -25,7 +23,7 @@
   color: var(--blanco);
   font-size: 1.6rem;
   letter-spacing: 3px;
-  line-height: 45px;
+  line-height: 35px;
   text-align: center;
 }
 
@@ -43,7 +41,7 @@
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  margin-top: 8%;
+  margin-top: 6%;
 }
 
 .page-teams__container {

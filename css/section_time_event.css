@@ -14,7 +14,7 @@
 
 .decoration {
   width: 4%;
-  height: 30%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,7 +23,7 @@
 .decoration__line {
   display: block;
   background-color: var(--blanco);
-  height: 10px;
+  height: 13px;
 }
 
 .date-event__information {

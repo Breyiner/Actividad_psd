@@ -1,31 +1,42 @@
 .page-signin--invested {
-  margin: 200px 0 300px;
+  margin: 200px 0 250px;
   position: relative;
 }
 
 .signin-content--invested {
-  gap: 10%;
+  gap: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+  'signin-information--invested img-page--invested';
+  column-gap: 5%;
 }
 
 .signin-information--invested {
-  margin-left: 10%;
-  margin-right: 5%;
+  grid-area: signin-information--invested;
+  margin-left: 20%;
+}
+
+.signin-information__text--invested {
+  margin-right: 27%;
 }
 
 .img-page--invested {
-  width: 130%;
+  grid-area: img-page--invested;
+  width: 100%;
   background-color: var(--colorPrincipal);
   margin-right: 0;
   position: relative;
+  height: 70vh;
 }
 
 .img-page__img--invested {
   position: absolute;
-  width: 100%;
-  margin-bottom: 11%;
-  margin-left: -15%;
+  width: 110%;
+  margin-bottom: 9.5%;
+  margin-left: -20%;
   z-index: 2;
-  height: 70vh;
+  height: 80vh;
 }
 
 .decoration--page-signin-invested {
@@ -37,13 +48,12 @@
 
 .next-pages__left--page-signin-invested {
   position: absolute;
-  top: 5%;
   left: 10%;
   color: var(--colorPrincipal);
 }
 
 .next-pages__right--page-signin-invested {
-  bottom: -20%;
+  bottom: -15%;
   position: absolute;
-  left: 45%;
+  left: 35%;
 }
