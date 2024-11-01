@@ -12,16 +12,16 @@
 .main-page__container-img {
   width: 100%;
   position: absolute;
-  top: 0;
   left: 5%;
   height: 85%;
-  z-index: 2;
+  z-index: 1;
 }
 
 .main-page__img {
   width: 95%;
   height: 100%;
   /* top: 0; */
+  filter: drop-shadow(0 0 30px var(--colorSecundario));
 }
 
 .next-pages {

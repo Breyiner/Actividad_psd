@@ -17,8 +17,8 @@
   margin-left: 20%;
 }
 
-.signin-information__text--invested {
-  margin-right: 27%;
+.signin-information__text--invested, .signin-information__title {
+  margin-right: 20%;
 }
 
 .img-page--invested {

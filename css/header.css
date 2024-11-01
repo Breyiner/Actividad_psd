@@ -1,6 +1,6 @@
 /* Header */
 .header {
-  padding: 50px 10px 0;
+  padding: 50px 60px 0;
   width: 100%;
   margin-bottom: 1px;
   display: flex;
@@ -8,11 +8,11 @@
 }
 
 .nav {
-  background-color: #11f2ff;
+  background-color: var(--colorPrincipal);
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 40px;
+  padding: 0 0 0 40px;
   font-weight: 1000;
 }
 
@@ -30,4 +30,14 @@
   padding: 25px;
   color: var(--colorSecundario);
   text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+.nav__link:hover {
+  background-color: #027e85;
+}
+
+.menu-check, .container-menu, .input-connect {
+  display: none;
 }

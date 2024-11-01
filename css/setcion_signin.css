@@ -33,6 +33,7 @@
   width: 120%;
   z-index: 1;
   height: 70vh;
+  filter: drop-shadow(0 0 30px var(--colorSecundario));
 }
 
 .signin-information {
