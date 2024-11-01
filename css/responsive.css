@@ -1,0 +1,279 @@
+@media (max-width: 1300px) {
+
+    .signin-information__title {
+        font-size: 43px;
+    }
+
+    .next-pages__left--page-signin-blue {
+        bottom: 5%;
+    }
+}
+
+@media (max-width: 1100px) {
+    
+    .name-event {
+        font-size: 40px;
+    }
+
+    .page-teams-information__title {
+        width: 110%;
+        text-align: center;
+    }
+
+    .signin-information__text, .page-teams-information__text, .footer-section__item {
+        font-size: 1.2rem;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 830px) {
+
+    .nav__link {
+        display: none;
+    }
+
+    .nav__logo {
+        padding: 5px 0;
+    }
+
+    .main-page {
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+
+    .main-page__container-img {
+        display: none;   
+    }
+
+    .main-page__event {
+        gap: 30px;
+    }
+
+    .name-event {
+        font-size: 30px;
+    }
+
+    .other-pages {
+        font-size: 1.7rem;
+        gap: 1.5rem;
+    }
+
+    .name-game {
+        display: none;
+    }
+
+
+
+    .date-event {
+        margin-top: 0;
+        padding: 20px 0;
+    }
+
+    .date-event__information {
+        gap: 5px;
+    }
+
+    .date-event__text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .date-event__time {
+        font-size: 25px;
+    }
+
+    .date-event__time--big {
+        font-size: 40px;
+    }
+
+    .date-event__datetime {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .img-page {
+        display: none;
+    }
+
+    .signin-information {
+        margin-left: 0;
+        margin: 0 35px;
+        align-items: center;
+    }
+
+    .signin-information__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .signin-content--invested {
+        display: flex;
+        align-items: center;
+    }
+
+    .signin-information__text--invested {
+        margin: 0;
+    }
+
+    .next-pages__right--page-signin-invested {
+        bottom: -25%;
+    }
+
+    .page-teams__teams {
+        flex-direction: column;
+    }
+
+    .next-pages {
+        padding: 0;
+        letter-spacing: 0;
+    }
+
+    .page-teams-information {
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .page-teams-information__title {
+        font-size: 25px;
+    }
+    
+    .page-teams-information__text {
+        font-size: 1.1rem;
+        line-height: 25px;
+        text-align: justify;
+        text-align-last: center;
+    }
+    
+    .page-teams__container {
+        margin-top: 110px;
+        width: 70%;
+        height: 70vh;
+    }
+    
+    .img-page__img--team {
+        width: 120%;
+        right: -5%;
+        height: 84vh;
+    }
+
+    .page-signin-header{
+        height: auto;
+    }
+
+    .page-signin-header__title {
+        font-size: 30px;
+        margin-right: 5%;
+        text-align: right;
+    }
+
+    .page-signin-header__title--down {
+        margin: 0;
+    }
+
+    .signin-content--blue {
+        height: 50vh;
+        padding: 0 5%;
+    }
+
+    .decoration--page-signin-blue {
+        top: -15%;
+        height: 25%;
+        width: 15%;
+    }
+
+    .page-video {
+        margin: 200px 60px;
+        height: 45vh;
+    }
+
+    .name-event--video {
+        top: -40%;
+        left: 0;
+    }
+
+    .name-event__text--video {
+        font-size: 20px;
+    }
+
+    .video-container {
+        grid-template-rows: repeat(2, 200px);
+    }
+
+    .video-container__img {
+        grid-row: 1/3;
+    }
+
+    .video-container__reproducer {
+        top: 55%;
+        right: 45%;
+    }   
+
+    .next-pages--video {
+        rotate: -180deg;
+        top: 0;
+        bottom: -250%;
+        right: 40%;
+    }
+
+    .section-cards__title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer__sections {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer-contact {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-contact__follow {
+        padding: 5px 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .page-teams__container {
+        margin-top: 110px;
+        width: 70%;
+        height: 55vh;
+    }
+
+    .img-page__img--team {
+        width: 120%;
+        right: -5%;
+        height: 66vh;
+    }
+
+    .page-video {
+        height: 25vh;
+    }
+
+    .video-container {
+        grid-template-rows: repeat(2, 150px);
+    }
+
+    .video-container__img {
+        grid-row: 1/3;
+    }
+
+    .video-container__reproducer {
+        top: 50%;
+        right: 40%;
+    }  
+
+    .footer__sections {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

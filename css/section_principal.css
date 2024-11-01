@@ -15,10 +15,10 @@
   top: 0;
   left: 5%;
   height: 85%;
+  z-index: 2;
 }
 
 .main-page__img {
-  z-index: 1;
   width: 95%;
   height: 100%;
   /* top: 0; */
@@ -88,7 +88,7 @@
   text-transform: uppercase;
   background-color: var(--blanco);
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   border-radius: 3px;
   transition: 0.3s;
   z-index: 1;

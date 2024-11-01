@@ -12,6 +12,7 @@
 @import url(css/section_cards.css);
 @import url(css/section_subscribe.css);
 @import url(css/footer.css);
+@import url(css/responsive.css);
 
 * {
   margin: 0;
