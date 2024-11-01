@@ -9,6 +9,8 @@
 @import url(css/section_teams.css);
 @import url(css/section_signin_blue.css);
 @import url(css/section_video.css);
+@import url(css/section_cards.css);
+@import url(css/section_subscribe.css);
 
 * {
   margin: 0;
