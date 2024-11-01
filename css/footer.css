@@ -1,0 +1,87 @@
+.footer {
+    background-color: var(--colorPrincipal);
+    padding: 100px ;
+}
+
+.footer__sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: self-start;
+}
+
+.footer-section__title {
+    font-family: "Holtwood One SC", serif;
+    z-index: 1;
+    position: relative;
+    letter-spacing: 3px;
+}
+
+.footer-section__title::after {
+    content: "";
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    background-color: var(--blanco);
+    bottom: -5%;
+    left: -15%;
+    z-index: -1;
+}
+
+.footer-section__title--services::after {
+    width: 113%;
+    left: -10%;
+}
+
+.footer-section__title--company::after {
+    width: 110%;
+    left: -10%;
+}
+
+.footer-section__links {
+    list-style: none;
+}
+
+.footer-section__item {
+    margin-bottom: 10px;
+}
+
+.footer-section__link {
+    color: var(--colorSecundario);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-section__link:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 45px;
+}
+
+.footer-contact__follow {
+    color: var(--blanco);
+    padding: 10px 35px;
+    background-color: red;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.footer-contact__app {
+    color: var(--colorSecundario);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
