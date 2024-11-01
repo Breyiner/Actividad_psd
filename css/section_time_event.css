@@ -8,7 +8,7 @@
   position: relative;
   z-index: 2;
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   justify-content: space-between;
 }
 
@@ -16,22 +16,22 @@
   width: 4%;
   height: 40%;
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccionFlex);
   justify-content: space-around;
 }
 
 .decoration__line {
   display: block;
-  background-color: var(--blanco);
+  background-color: var(--colorSecundario);
   height: 13px;
 }
 
 .date-event__information {
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccionFlex);
   justify-content: space-around;
-  align-items: center;
-  text-transform: uppercase;
+  align-items: var(--alineacionEjeY);
+  text-transform: var(--tipoLetra);
   letter-spacing: 3px;
   font-weight: bold;
   letter-spacing: 4px;
@@ -40,13 +40,13 @@
 
 .date-event__text {
   font-size: 25px;
-  font-family: "Holtwood One SC", serif;
-  color: var(--blanco);
+  font-family: var(--fuentePrincipal);
+  color: var(--colorSecundario);
 }
 
 .date-event__datetime {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   justify-content: space-between;
   font-size: 27px;
   gap: 80px;  
@@ -54,8 +54,8 @@
 }
 
 .date-event__time{
-  color: var(--colorSecundario);
-  font-family: "Holtwood One SC", serif;
+  color: var(--negro);
+  font-family: var(--fuentePrincipal);
 }
 
 .date-event__time--big {

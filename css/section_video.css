@@ -1,7 +1,7 @@
 .page-video {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: var(--alineacionEjeY);
+    justify-content: var(--alineacionEjeX);
     height: 80vh;
     margin: 20%;
     position: relative;
@@ -42,14 +42,14 @@
 .video-container__reproducer {
     position: absolute;
     border-radius: 50%;
-    background-color: var(--blanco);
+    background-color: var(--colorSecundario);
     width: 70px;
     height: 70px;
     top: 45%;
     right: 45%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: var(--alineacionEjeY);
+    justify-content: var(--alineacionEjeX);
 }
 
 .video-container__reproducer:hover {
@@ -58,7 +58,7 @@
 }
 
 .video-container__icono {
-    color: var(--colorSecundario);
+    color: var(--negro);
     font-size: 2.5rem;
     text-align: center;
     margin-left: 5%;
@@ -74,7 +74,7 @@
 }
 
 .name-event__text--video {
-    font-family: "Roboto", serif;
+    font-family: var(--fuenteTextos);
     font-weight: 500;
     font-size: 2.9vw;
     align-self: flex-start;

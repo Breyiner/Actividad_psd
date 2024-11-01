@@ -1,27 +1,27 @@
 .page-teams {
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccionFlex);
   margin: 100px 0;
   padding: 0 20px;
 }
 
 .page-teams-information{ 
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccionFlex);
   width: 55%;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
 }
 
 .page-teams-information__title {
     color: var(--colorPrincipal);
-  font-family: "Holtwood One SC", serif;
+  font-family: var(--fuentePrincipal);
   letter-spacing: 10px;
   font-size: 45px;
-  text-transform: uppercase;
+  text-transform: var(--tipoLetra);
 }
 
 .page-teams-information__text {
-  color: var(--blanco);
+  color: var(--colorSecundario);
   font-size: 1.6rem;
   letter-spacing: 3px;
   line-height: 35px;
@@ -40,7 +40,7 @@
 .page-teams__teams {
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   justify-content: space-around;
   margin-top: 6%;
 }
@@ -69,10 +69,10 @@
   height: 20%;
 }
 
-.decoration--team--right {
+.decoration--team-right {
   position: absolute;
   bottom: 3%;
-  right: -15%;
+  right: -14%;
   width: 15%;
   height: 20%;
 }

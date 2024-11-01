@@ -13,9 +13,9 @@
 
 .page-signin-header__title {
     font-size: 47px;
-    text-transform: uppercase;
-    color: var(--blanco);
-    font-family: "Holtwood One SC", serif;
+    text-transform: var(--fuentePrincipal);
+    color: var(--colorSecundario);
+    font-family: var(--fuentePrincipal);
     letter-spacing: 10px;
     text-align: left;
     width: 45%;
@@ -34,13 +34,13 @@
 }
 
 .signin-information__text--black {
-    color: var(--colorSecundario);
+    color: var(--negro);
     width: 110%;
 }
 
 .btn-signin--hover-opaco:hover {
     opacity: 0.7;
-    background-color: var(--blanco);
+    background-color: var(--colorSecundario);
 }
 
 .decoration--page-signin-blue {
@@ -53,7 +53,7 @@
 }
 
 .next-pages__left--page-signin-blue {
-    color: var(--colorSecundario);
+    color: var(--negro);
     position: absolute;
     right: 5%;
 }

@@ -5,20 +5,20 @@
 
 .footer__sections {
     display: flex;
-    align-items: center;
+    align-items: var(--alineacionEjeY);
     justify-content: space-around;
     gap: 5%;
 }
 
 .footer-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: var(--direccionFlex);
     gap: 20px;
     align-self: self-start;
 }
 
 .footer-section__title {
-    font-family: "Holtwood One SC", serif;
+    font-family: var(--fuentePrincipal);
     z-index: 1;
     position: relative;
     letter-spacing: 3px;
@@ -29,7 +29,7 @@
     width: 80%;
     height: 50%;
     position: absolute;
-    background-color: var(--blanco);
+    background-color: var(--colorSecundario);
     bottom: -5%;
     left: -15%;
     z-index: -1;
@@ -54,7 +54,7 @@
 }
 
 .footer-section__link {
-    color: var(--colorSecundario);
+    color: var(--negro);
     font-size: 1.4rem;
     font-weight: 500;
     text-decoration: none;
@@ -68,21 +68,21 @@
 .footer-contact {
     margin-top: 50px;
     display: flex;
-    align-items: center;
+    align-items: var(--alineacionEjeY);
     justify-content: flex-end;
     gap: 45px;
 }
 
 .footer-contact__follow {
-    color: var(--blanco);
+    color: var(--colorSecundario);
     padding: 10px 35px;
-    background-color: red;
+    background-color: var(--colorFondoFollow);
     font-size: 1.4rem;
     font-weight: 500;
 }
 
 .footer-contact__app {
-    color: var(--colorSecundario);
+    color: var(--negro);
     text-decoration: none;
     font-size: 1.6rem;
 }

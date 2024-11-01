@@ -1,5 +1,18 @@
 :root {
     --colorPrincipal: #11f2ff;
-    --colorSecundario: #000;
-    --blanco: #fff;
+    --colorSecundario: #fff;
+    --negro: #000;
+    --colorFondoTitulo: #ff0000;
+    --colorFondoFollow: #ff3c3c;
+    --hoverMenu: #027e85;
+
+
+    --alineacionEjeY: center;
+    --alineacionEjeX: center;
+    --direccionFlex: column;
+    --tipoLetra: uppercase;
+    --tipoBorde: solid;
+
+    --fuentePrincipal: "Holtwood One SC", serif;
+    --fuenteTextos: "Roboto", serif;
   }

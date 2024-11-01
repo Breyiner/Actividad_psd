@@ -35,7 +35,7 @@
   .nav {
     justify-content: space-between;
     position: relative;
-    border-bottom: 1px solid var(--colorSecundario);
+    border-bottom: 1px var(--tipoBorde) var(--negro);
     padding-right: 40px;
   }
 
@@ -66,21 +66,21 @@
     .nav-check {
       width: 200px;
       display: flex;
-      flex-direction: column;
+      flex-direction: var(--direccionFlex);
     }
 
     .nav-check__link {
       text-decoration: none;
-      color: var(--colorSecundario);
+      color: var(--negro);
       padding: 10px 0;
-      border-bottom: 1px solid var(--colorSecundario);
+      border-bottom: 1px var(--tipoBorde) var(--negro);
       width: 100%;
       text-align: center;
       font-weight: 500;
     }
 
     .nav-check__link:hover {
-      background-color: #027e85;
+      background-color: var(--hoverMenu);
     }
     
     .input-connect:checked ~ .container-menu {
@@ -140,7 +140,7 @@
     }
 
     .date-event__datetime {
-        flex-direction: column;
+        flex-direction: var(--direccionFlex);
         gap: 10px;
     }
 
@@ -151,7 +151,7 @@
     .signin-information {
         margin-left: 0;
         margin: 0 35px;
-        align-items: center;
+        align-items: var(--alineacionEjeY);
     }
 
     .signin-information__title {
@@ -161,7 +161,7 @@
 
     .signin-content--invested {
         display: flex;
-        align-items: center;
+        align-items: var(--alineacionEjeY);
     }
 
     .signin-information__text--invested {
@@ -173,7 +173,7 @@
     }
 
     .page-teams__teams {
-        flex-direction: column;
+        flex-direction: var(--direccionFlex);
     }
 
     .next-pages {
@@ -257,7 +257,7 @@
     }
 
     .video-container__reproducer {
-        top: 55%;
+        top: 45%;
         right: 45%;
     }   
 
@@ -271,7 +271,7 @@
     }
 
     .cards-container {
-        flex-direction: column;
+        flex-direction: var(--direccionFlex);
         gap: 30px;
     }
 
@@ -281,7 +281,7 @@
     }
 
     .footer-contact {
-        justify-content: center;
+        justify-content: var(--alineacionEjeX);
         gap: 20px;
     }
 
@@ -342,7 +342,7 @@
     }  
 
     .footer__sections {
-        flex-direction: column;
+        flex-direction: var(--direccionFlex);
         gap: 20px;
     }
 }
@@ -358,5 +358,9 @@
         width: 120%;
         right: -5%;
         height: 42vh;
+    }
+
+    .section-cards__title {
+      margin: 0 30px;
     }
 }

@@ -1,7 +1,7 @@
 .section-cards {
     margin: 100px 0 200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: var(--direccionFlex);
 }
 
 .section-cards__header {
@@ -9,22 +9,21 @@
     display: flex;
     justify-content: space-between;
     height: 250px;
-    align-items: center;
+    align-items: var(--alineacionEjeY);
 }
 
 .section-cards__title {
     font-size: 43px;
-    font-family: "Holtwood One SC", serif;
-    color: var(--blanco);
-    text-transform: uppercase;
+    font-family: var(--fuentePrincipal);
+    color: var(--colorSecundario);
+    text-transform: var(----tipoLetra);
     letter-spacing: 10px;
 }
 
 
 .cards-container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: var(--alineacionEjeY);
     justify-content: space-between;
     padding: 0 8%;
     gap: 5%;
@@ -34,11 +33,11 @@
 .card {
     height: 530px;
     width: 350px;
-    background-color: var(--blanco);
+    background-color: var(--colorSecundario);
     padding: 15px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: var(--direccionFlex);
+    align-items: var(--alineacionEjeY);
     gap: 6%;
 }
 
@@ -63,13 +62,13 @@
 
 .card__information {
     display: flex;
-    flex-direction: column;
+    flex-direction: var(--direccionFlex);
     justify-content: space-between;
     text-align: center;
 }
 
 .card__title {
-    font-family: "Holtwood One SC", serif;
+    font-family: var(--fuentePrincipal);
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 5%;
@@ -85,9 +84,9 @@
     background-color: var(--colorPrincipal);
     text-align: center;
     padding: 5px 10px;
-    color: var(--colorSecundario);
+    color: var(--negro);
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: var(--tipoLetra);
     font-size: 0.9rem;
     font-weight: 500;
 }

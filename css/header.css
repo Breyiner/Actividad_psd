@@ -4,13 +4,13 @@
   width: 100%;
   margin-bottom: 1px;
   display: flex;
-  flex-direction: column;
+  flex-direction: var(--direccionFlex);
 }
 
 .nav {
   background-color: var(--colorPrincipal);
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   justify-content: space-around;
   padding: 0 0 0 40px;
   font-weight: 1000;
@@ -18,7 +18,7 @@
 
 .nav__logo {
   display: flex;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   margin-right: 20px;
 }
 
@@ -28,14 +28,14 @@
 
 .nav__link {
   padding: 25px;
-  color: var(--colorSecundario);
+  color: var(--negro);
   text-decoration: none;
   width: 100%;
   text-align: center;
 }
 
 .nav__link:hover {
-  background-color: #027e85;
+  background-color: var(--hoverMenu);
 }
 
 .menu-check, .container-menu, .input-connect {

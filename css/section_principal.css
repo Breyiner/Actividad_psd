@@ -1,8 +1,8 @@
 /* First Section */
 .main-page {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: var(--direccionFlex);
+  align-items: var(--alineacionEjeY);
   gap: 7vh;
   /* height: 150vh; */
   position: relative;
@@ -21,15 +21,15 @@
   width: 95%;
   height: 100%;
   /* top: 0; */
-  filter: drop-shadow(0 0 30px var(--colorSecundario));
+  filter: drop-shadow(0 0 30px var(--negro));
 }
 
 .next-pages {
   display: flex;
-  color: var(--blanco);
+  color: var(--colorSecundario);
   width: 100%;
   padding: 0 50px;
-  align-items: center;
+  align-items: var(--alineacionEjeY);
   justify-content: space-between;
   font-size: 2rem;
   letter-spacing: 10px;
@@ -43,29 +43,29 @@
 
 .main-page__event {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: var(--direccionFlex);
+  align-items: var(--alineacionEjeY);
   gap: 65px;
 }
 
 .name-event {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: var(--alineacionEjeY);
+  flex-direction: var(--direccionFlex);
   font-size: 55px;
 }
 
 .name-event__text {
   display: inline-block;
-  color: var(--blanco);
-  text-transform: uppercase;
+  color: var(--colorSecundario);
+  text-transform: var(--tipoLetra);
   font-weight: 1000;
   font-family: "Passion One", sans-serif;
   letter-spacing: 5px;
 }
 
 .name-event__text--background-red {
-  background-color: red;
+  background-color: var(--colorFondoTitulo);
   padding: 0 4px;
   position: relative;
   border-radius: 5px;
@@ -77,16 +77,16 @@
   position: absolute;
   bottom: 75%;
   left: 100%;
-  color: red;
+  color: var(--colorFondoTitulo);
 }
 
 .btn-signin {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  color: var(--colorSecundario);
-  text-transform: uppercase;
-  background-color: var(--blanco);
+  color: var(--negro);
+  text-transform: var(--tipoLetra);
+  background-color: var(--colorSecundario);
   font-weight: bold;
   font-size: 1.1rem;
   border-radius: 3px;
@@ -111,14 +111,14 @@
 }
 
 .other-pages__page--active {
-  color: var(--blanco);
+  color: var(--colorSecundario);
 }
 
 .name-game {
-  color: var(--blanco);
+  color: var(--colorSecundario);
   font-size: 400px;
-  text-transform: uppercase;
-  font-family: "Holtwood One SC", serif;
+  text-transform: var(--tipoLetra);
+  font-family: var(--fuentePrincipal);
   font-weight: 1000;
   letter-spacing: 30px;
   margin-top: -170px;
