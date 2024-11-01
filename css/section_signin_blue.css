@@ -68,5 +68,6 @@
     position: absolute;
     width: 130%;
     height: 100vh;   
-    margin-bottom: 53.5%;
+    /* margin-bottom: 53.5%; */
+    bottom: 0;
   }
