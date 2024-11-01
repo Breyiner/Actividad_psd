@@ -36,6 +36,7 @@
     justify-content: space-between;
     position: relative;
     border-bottom: 1px solid var(--colorSecundario);
+    padding-right: 40px;
   }
 
     .nav__link {
@@ -63,7 +64,7 @@
     }
     
     .nav-check {
-      width: 300px;
+      width: 200px;
       display: flex;
       flex-direction: column;
     }
@@ -84,7 +85,7 @@
     
     .input-connect:checked ~ .container-menu {
       background-color: var(--colorPrincipal);
-      top: 13%;
+      top: 122px;
       right: 60px;
     }
 
