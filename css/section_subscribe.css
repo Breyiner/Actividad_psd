@@ -28,6 +28,11 @@
     font-weight: 500;
     outline: none;
     font-size: 1.1rem;
+    border: 0;
+}
+
+.form-suscribe__input:hover {
+    box-shadow: 0 0 5px var(--colorSecundario);
 }
 
 .form-suscribe__input--textarea {
@@ -45,4 +50,10 @@
     background-color: var(--colorPrincipal);
     border: 0;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-subscribe__button:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px var(--colorPrincipal);
 }

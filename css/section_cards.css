@@ -39,6 +39,11 @@
     flex-direction: var(--direccionFlex);
     align-items: var(--alineacionEjeY);
     gap: 6%;
+    transition: 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px var(--colorSecundario);
 }
 
 .card__container-img {
@@ -53,6 +58,10 @@
     bottom: 0;
     width: 97%;
     max-height: 100%;
+}
+
+.card__container-img:hover {
+    box-shadow: 0 0 10px var(--negro);
 }
 
 .card__img--less-width {
@@ -89,4 +98,10 @@
     text-transform: var(--tipoLetra);
     font-size: 0.9rem;
     font-weight: 500;
+    transition: 0.5s;
+}
+
+.card__buttom:hover {
+    box-shadow: 0 0 10px var(--negro);
+    border-radius: 10px;
 }

@@ -39,8 +39,8 @@
 }
 
 .btn-signin--hover-opaco:hover {
-    opacity: 0.7;
     background-color: var(--colorSecundario);
+    box-shadow: 0 0 10px var(--negro);
 }
 
 .decoration--page-signin-blue {

@@ -35,7 +35,8 @@
 }
 
 .nav__link:hover {
-  background-color: var(--hoverMenu);
+  /* background-color: var(--hoverMenu); */
+  box-shadow: 0 0 20px var(--negro);
 }
 
 .menu-check, .container-menu, .input-connect {

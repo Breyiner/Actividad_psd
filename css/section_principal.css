@@ -98,7 +98,7 @@
 
 .btn-signin:hover {
   background-color: var(--colorPrincipal);
-  opacity: 0.5;
+  box-shadow: 0 0 5px var(--colorSecundario);
 }
 
 .other-pages {
